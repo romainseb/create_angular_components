@@ -30,9 +30,9 @@
   "createAngularComponents": {
     "options": {
       "initServiceController": true,
-      "cssSuffix": "scss",
-      "language": "es6",
-      "angularVersion:": 1,
+      "cssSuffix": "SCSS",
+      "language": "ES6",
+      "angularVersion": 2,
       "prefix": "app/"
     },
     "modules": [
