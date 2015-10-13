@@ -1,0 +1,50 @@
+{
+  "name": "@romainseb/create_angular_components",
+  "version": "0.0.1",
+  "description": "A tool to create AngularJS components quickly",
+  "main": "bin/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainseb/create_angular_components.git"
+  },
+  "keywords": [
+    "Angular",
+    "Components"
+  ],
+  "author": "Romain Sébastien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romainseb/create_angular_components/issues"
+  },
+  "homepage": "https://github.com/romainseb/create_angular_components#readme",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  },
+  "createAngularComponents": {
+    "options": {
+      "initServiceController": true,
+      "cssSuffix": "scss",
+      "language": "es6",
+      "angularVersion:": 1,
+      "prefix": "app/"
+    },
+    "modules": [
+      {
+        "module-name": "website",
+        "views": [
+          "app/views/home"
+        ],
+        "directives": [
+          "app/views/home/components/siteHeader"
+        ]
+      }
+    ]
+  }
+}
