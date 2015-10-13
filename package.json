@@ -25,24 +25,24 @@
   },
   "homepage": "https://github.com/romainseb/create_angular_components#readme",
   "dependencies": {
-    "shelljs": "^0.5.3"
+    "mkdirp": "^0.5.1"
   },
   "createAngularComponents": {
     "options": {
       "initServiceController": true,
       "cssSuffix": "SCSS",
       "language": "ES6",
-      "angularVersion": 2,
+      "angularVersion": 1,
       "prefix": "app/"
     },
     "modules": [
       {
         "module-name": "website",
         "views": [
-          "app/views/home"
+          "views/home"
         ],
         "directives": [
-          "app/views/home/components/siteHeader"
+          "views/home/components/siteHeader"
         ]
       }
     ]
