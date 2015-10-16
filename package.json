@@ -25,13 +25,14 @@
   },
   "homepage": "https://github.com/romainseb/create_angular_components#readme",
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "string-template": "^0.2.1"
   },
   "createAngularComponents": {
     "options": {
       "initServiceController": true,
       "cssSuffix": "SCSS",
-      "language": "ES6",
+      "language": "ES5",
       "angularVersion": 1,
       "prefix": "app/"
     },
