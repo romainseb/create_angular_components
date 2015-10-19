@@ -1,5 +1,5 @@
 {
-  "name": "@romainseb/create_angular_components",
+  "name": "create_angular_components",
   "version": "0.0.1",
   "description": "A tool to create AngularJS components quickly",
   "main": "bin/start.js",
@@ -32,7 +32,7 @@
     "options": {
       "initServiceController": true,
       "cssSuffix": "SCSS",
-      "language": "ES5",
+      "language": "ES6",
       "angularVersion": 1,
       "prefix": "app/"
     },
