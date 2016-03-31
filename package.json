@@ -1,6 +1,6 @@
 {
   "name": "create_angular_components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tool to create AngularJS components quickly",
   "main": "bin/start.js",
   "scripts": {
@@ -34,6 +34,7 @@
       "cssSuffix": "SCSS",
       "language": "ES6",
       "angularVersion": 1,
+      "componentPrefix": "ws",
       "prefix": "app/"
     },
     "modules": [
