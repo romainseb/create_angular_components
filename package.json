@@ -1,6 +1,6 @@
 {
   "name": "create_angular_components",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A tool to create AngularJS components quickly",
   "main": "bin/start.js",
   "scripts": {
