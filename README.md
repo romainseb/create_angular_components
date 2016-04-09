@@ -5,7 +5,7 @@
 ## Getting Started
 
 ```shell
-npm install create-angular-components -g
+npm i -g create_angular_components
 ```
 
 ```js
